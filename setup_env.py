@@ -3,7 +3,8 @@ import sys
 import venv
 from pathlib import Path
 
-ENV_DIR = Path("3000-env")
+#ENV_DIR = Path("3000-env")
+ENV_DIR = Path(r"C:\Users\rache\OneDrive - University of Connecticut\cse3000\code_3000\3000-env")
 
 # Create venv
 venv.create(ENV_DIR, with_pip=True)
@@ -24,8 +25,11 @@ packages = [
     "shap==0.52.0",
 ]
 
-subprocess.check_call([pip, "install", "--upgrade", "pip"])
-subprocess.check_call([pip, "install", *packages])
+#subprocess.check_call([pip, "install", "--upgrade", "pip"])
+#subprocess.check_call([pip, "install", *packages])
+
+subprocess.check_call([python, "-m", "pip", "install", "--upgrade", "pip"])
+subprocess.check_call([python, "-m", "pip", "install", *packages])
 
 subprocess.check_call([
     python, "-c",
