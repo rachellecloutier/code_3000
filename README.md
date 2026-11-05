@@ -1,4 +1,4 @@
-## My Personal views on ethics:
+## My personal views on ethics:
 To me, ethics in tech can’t just be a combination of nice-sounding words, it has to be a set of clear rules that actually guides our choices. In Ethical Machines, Reid Blackman points out that saying you care about big ideas like "fairness" or "transparency" doesn't mean much if you don't define them, set firm limits, or make sure someone is responsible. When you're actually building things, you always run into tough trade-offs like, choosing between how well a model performs versus how easy it is to explain, or making something useful versus protecting people's privacy.
 
 I think real ethics comes down to setting hard lines for what we will never do, facing these trade-offs head-on instead of ignoring them, and taking personal responsibility for what we make. In the end, your ethics only matter if they change the real, day-to-day decisions you make while working.
